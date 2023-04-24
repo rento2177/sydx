@@ -152,3 +152,43 @@ input[type="text"] {
     float: left;
     color: red;
 }
+
+@media screen and (max-width: 768px) {
+  div.top-siteName {
+    font-size: 120%;
+  }
+  
+  small {
+    font-size: 75%;
+  }
+  
+  select#ranges {
+    height: 30px;
+  }
+  
+  #back {
+    width: 25%;
+    height: 7%;
+    font-size: 90%;
+  }
+  
+  #submit {
+    width: 70%;
+    height: 100%;
+    font-size: 100%;
+  }
+  
+    .mokuji {
+    font-size: 100%;
+  }
+  
+  .cont-1 {
+    font-size: 100%;
+  }
+  
+  .cont-but {
+    font-size: 100%;
+    width: 80%;
+    line-height: 170%;
+  }
+}
